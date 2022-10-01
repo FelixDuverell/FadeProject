@@ -1,28 +1,46 @@
-.mainscreen {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    margin-left: 50px;
+body {
 
+    background: #d8f2b8;;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 
 
 
 .left-side {
-    max-width: 600px;
+    max-width: 545px;
 }
 
-.turntable-img {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
-}
 
 .container1-contact {
     display: flex;
+    justify-content: center;
+    margin-top: 150px;
 }
 
+
+
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(2, 250px);
+grid-template-rows: repeat(2, 250px); 
+grid-gap: 15px;
+}
+
+.grid1 { grid-area: 1 / 1 / 2 / 2;}
+.grid2 { grid-area: 1 / 2 / 2 / 3; }
+.grid3 { grid-area: 2 / 1 / 3 / 2; }
+.grid4 { grid-area: 2 / 2 / 3 / 3; } 
+
+img {
+width: 100%;
+height: 100%;
+border-radius: 5px;
+}
 
 
 .form-contact {
@@ -47,20 +65,31 @@
     width: 100%;
 }
 
-
+.input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    background:  #d8f2b8;
+}
 
 .input-field-message {
     height: 150px;
 }
 
+
+.textform {
+    background-color: #dce7cf;
+    border: 1px solid black;
+}
 .form1 {
     font-family: 'Roboto Slab';
 }
 
 .btn-submit {
 
-    background-color: #d8f2b8;
+    background-color: #655d81;
     border: 1px solid black;
+    color: white;
     border-radius: 3px;
     width: 120px;
     height: 30px;
