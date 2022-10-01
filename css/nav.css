@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "";
+    src: url();
+}
+.navigation-bar {
+    width: 650px;
+    height: 100px;
+    background-color: #d8f2b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ul {
+    display:flex;
+    justify-items: space-between;
+    list-style-type:none ;
+  padding: 10px;
+    
+}
+
+
+.logo {
+    
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+   
+    font-style: normal;
+    width: 131px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: 0;
+}
