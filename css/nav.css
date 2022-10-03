@@ -8,17 +8,22 @@
     background-color: #d8f2b8;
     display: flex;
     justify-content: space-between;
+   
     align-items: center;
+padding-top:40px;
+
+padding-left:10%;
+
+padding-right:10%;
 
 }
 
 
 li {
-    display:inline;
+    display:inline-block;
    list-style: none;
-  
-  text-decoration: none;
-    
+   text-decoration: none;
+   width: 10em;
 }
 a:hover{
     color:black;
@@ -28,12 +33,9 @@ a:hover{
 
 a {
     text-decoration: none;
-    width: 10em;
+   
 }
     
-
-
-
 
 .logo {
     
@@ -45,18 +47,5 @@ a {
     width: 100px;
     height: 100px;
     transform:scale(-1) ;
-}
-
-
-.main {
-   
-    font-style: normal;
-    width: 131px;
-    height: 39px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    border: 0;
 }
 
