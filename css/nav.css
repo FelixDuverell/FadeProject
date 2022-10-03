@@ -3,7 +3,7 @@
     src: url();
 }
 .navigation-bar {
-    width: 650px;
+    max-width: 1400px;
     height: 100px;
     background-color: #d8f2b8;
     display: flex;
@@ -13,13 +13,26 @@
 }
 
 
-ul {
-    display:flex;
-    justify-items: space-between;
-   
+li {
+    display:inline;
+   list-style: none;
   
+  text-decoration: none;
     
 }
+a:hover{
+    color:black;
+    letter-spacing: 0.5em; 
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    width: 10em;
+}
+    
+
+
 
 
 .logo {
@@ -27,6 +40,13 @@ ul {
     width: 100px;
     height: 100px;
 }
+.logo1 {
+    
+    width: 100px;
+    height: 100px;
+    transform:scale(-1) ;
+}
+
 
 .main {
    
@@ -39,3 +59,4 @@ ul {
     text-align: center;
     border: 0;
 }
+
