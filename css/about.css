@@ -2,10 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background: #d8f2b8;
+    font-family: 'Roboto Slab';
 }
 
 .navbar {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .grid-container {

@@ -3,10 +3,11 @@ body {
     padding: 0;
     height: 100vh;
     background: #d8f2b8;
+	font-family: 'Roboto Slab';
 }
 
 .navbar {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .position-grid {
