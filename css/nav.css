@@ -1,6 +1,10 @@
 
+
+.navigation-bar {
+
 .navigation-bar { 
     font-family: "roboto";
+
     max-width: 1400px;
     height: 100px;
     /*background-color: #d8f2b8;*/
