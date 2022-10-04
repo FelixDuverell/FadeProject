@@ -17,7 +17,7 @@ body {
 .container1-contact {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 
@@ -42,17 +42,31 @@ height: 100%;
 border-radius: 5px;
 }
 
+.box {
+    width: 330px;
+    height: 510px;
+    background-color:white;
+    border: #406b0b 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgb(68, 63, 63);
+    margin-left: 50px;
+}
 
 .form-contact {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
     margin-left: 40px;
 }
 
 .form-text {
     font-family: 'Roboto Slab';
     font-weight: 200;
+}
+
+.form-text-div {
+    max-width: 520px;
+    
 }
 
 .form-bold {
@@ -69,7 +83,6 @@ border-radius: 5px;
     border: 0;
     outline: 0;
     border-bottom: 1px solid black;
-    background:  #d8f2b8;
 }
 
 .input-field-message {
@@ -77,8 +90,9 @@ border-radius: 5px;
 }
 
 
+
 .textform {
-    background-color: #dce7cf;
+    background-color: #ebebeb;
     border: 1px solid black;
 }
 .form1 {
