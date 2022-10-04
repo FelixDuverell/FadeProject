@@ -4,6 +4,10 @@ body {
     background: #d8f2b8;
 }
 
+.navbar {
+    border-bottom: 1px solid black;
+}
+
 .grid-container {
     margin: 150px;
     display: grid;
