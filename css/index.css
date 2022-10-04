@@ -1,0 +1,87 @@
+body {
+    background-color: #d8f2b8;
+}
+
+.main-btn {
+    background-color: #d8f2b8;
+    margin-left: 164px;
+    margin-right: 469px;
+    margin-bottom: 64px;
+    margin-top: 482px;
+    width: 202px;
+    height: 48px;
+    left: 407px;
+    top: 635px;
+    border-radius: 40px; 
+    box-shadow: 0px 0px 12px #67c1d8fb;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+}
+
+
+
+.container {
+    font-size: larger;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:  #d8f2b8;
+    padding: 15px;
+    border-radius: 250px;
+}
+
+.left {
+    border-radius: 250px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+  
+.top {
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    left: 45px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto';
+    font-style:normal;
+}
+
+.bottom {
+    position: absolute;
+    text-align: center;
+    font-family: 'Roboto';
+    color: black;
+    font-style:normal;
+    
+    font-size: 30px;
+    line-height: 20px;
+    top: 50%;
+    width: 100%;
+
+}
+
+.top-right {
+    position: absolute;
+    text-align: right;
+    bottom: 80px;
+    right: 45px;
+    font-size: 50px;
+    color: black;
+    font-family: 'Roboto';
+    font-style:normal;
+
+}
