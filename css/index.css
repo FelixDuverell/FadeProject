@@ -25,9 +25,12 @@ body {
     color: #FFFFFF;   
 }
 
-
+.navbar {
+    border-bottom: 2px solid black;
+}
 
 .container {
+    margin-top: 50px;
     font-size: larger;
     font-family: 'Roboto';
     font-style: normal;
@@ -58,6 +61,7 @@ body {
     color: black;
     font-family: 'Roboto';
     font-style:normal;
+    margin-top: 80px;
 }
 
 .bottom {
