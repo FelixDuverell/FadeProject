@@ -1,11 +1,13 @@
 
-.navigation-bar { 
+
+.navigation-bar {
     font-family: "roboto";
-    font-weight: bold;
+
     max-width: 1400px;
     height: 100px;
     font-size: 18px;
     /*background-color: #d8f2b8;*/
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
