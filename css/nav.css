@@ -1,18 +1,20 @@
 
 
 .navigation-bar {
+
+.navigation-bar { 
+    font-family: "roboto";
+
     max-width: 1400px;
     height: 100px;
-    background-color: #d8f2b8;
+    /*background-color: #d8f2b8;*/
+    
     display: flex;
     justify-content: space-between;
-   
     align-items: center;
-padding-top:40px;
-
-padding-left:10%;
-
-padding-right:10%;
+    padding-top:40px;
+    padding-left:10%;
+    padding-right:10%;
 
 }
 
@@ -20,7 +22,6 @@ padding-right:10%;
 li {
     display:inline-block;
    list-style: none;
-   text-decoration: none;
    width: 10em;
 }
 a:hover{
