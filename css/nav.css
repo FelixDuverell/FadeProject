@@ -1,0 +1,48 @@
+
+
+.navigation-bar {
+    font-family: "roboto";
+
+    max-width: 1400px;
+    height: 100px;
+    /*background-color: #d8f2b8;*/
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:40px;
+    padding-left:10%;
+    padding-right:10%;
+
+}
+
+
+li {
+    display:inline-block;
+   list-style: none;
+   width: 10em;
+}
+a:hover{
+    color:black;
+    letter-spacing: 0.2em; 
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+   
+}
+    
+
+.logo {
+    
+    width: 100px;
+    height: 100px;
+}
+.logo1 {
+    
+    width: 100px;
+    height: 100px;
+    transform:scale(-1) ;
+}
+
