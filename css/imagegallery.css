@@ -19,6 +19,7 @@ body {
 	width: 100%;
 	grid-gap: 15px;
 	margin: 150px;
+	margin-top: 70px;
 	grid-template-columns: repeat(9,1fr);
 	grid-template-rows: repeat(26,1fr);
 	width: 1110px;
