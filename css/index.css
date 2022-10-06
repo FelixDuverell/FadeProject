@@ -1,0 +1,94 @@
+body {
+    background-color: #d8f2b8;
+}
+
+.main-btn {
+    background-color: #d8f2b8; 
+    margin: 40px; 
+    right: 20px;
+    left: 275px;
+    bottom: 25px;
+    width: 202px;
+    height: 48px;
+    border-radius: 40px; 
+    box-shadow: 0px 0px 12px #0e1517fb;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0a0a0add;
+}
+
+.navbar {
+    border-bottom: 2px solid black;
+}
+
+.container {   
+    margin-top: 50px;
+    font-size: larger;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+}
+
+.top {
+    margin: 80px;
+    position: absolute;
+    text-align:center;
+    top: 80px;
+    left: 145px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto';
+    font-style:normal;    
+}
+
+.bottom {
+    margin: 350px;
+    bottom: 15px;
+    right: 90px;
+    position: absolute;
+    text-align: end;
+    font-family: 'Roboto';
+    color: black;
+    font-style:normal;   
+    font-size: 30px;
+    line-height: 20px;
+    top: 50%;
+    width: 100%;
+}
+
+.responsive1{
+    margin: 215px;
+    margin-bottom: 125px;
+    margin-right: 120px;
+    top: 240px;
+    right: 95px;
+    border-radius: 100px;
+    height: 250px;
+    width: 250px;
+}
+
+.responsive2 {
+    margin-bottom: 125px;
+    margin-right: 130px;
+    top: 270px;
+    right: 95px;
+    border-radius: 100px;
+    height: 250px;
+    width: 250px;
+}
+
+.responsive3 {
+    margin-bottom: 125px;
+    margin-right: 130px;
+    top: 270px;
+    right: 95px;
+    border-radius: 100px;
+    height: 250px;
+    width: 250px;
+}
